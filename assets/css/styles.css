@@ -1574,3 +1574,27 @@ body.dark-theme #animated-name {
 }
 
 
+@media screen and (max-width: 425px) {
+    .home__social {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        order: 2; /* Moves it below the image */
+    }
+
+    .home__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home__img {
+        order: 1; /* Image stays on top */
+    }
+
+    .home__data {
+        order: 3; /* Text section comes below icons */
+    }
+}

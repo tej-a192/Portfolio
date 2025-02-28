@@ -222,6 +222,3 @@ document.getElementById("check").onclick = function() {
       alert('Fill all the fields');
     }
   };
-
-
-
